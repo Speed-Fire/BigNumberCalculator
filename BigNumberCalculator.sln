@@ -5,6 +5,12 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BigNumberCalculator", "BigNumberCalculator\BigNumberCalculator.vcxproj", "{0D7C68A1-5E6F-48B9-A63B-AAD74E62B8BA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{FAD618A6-9257-44FB-8842-D6C17B0B4030}"
+	ProjectSection(SolutionItems) = preProject
+		Doxyfile = Doxyfile
+		Makefile = Makefile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
