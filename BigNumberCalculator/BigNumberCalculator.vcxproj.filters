@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BigNumbers">
+      <UniqueIdentifier>{db6edbe4-2c6a-443a-b49a-aa92f307ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BigNumbers\BigInt">
+      <UniqueIdentifier>{5a01030a-7b68-4583-a6d2-8045e2f36ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BigNumbers\BigDouble">
+      <UniqueIdentifier>{73712194-a6ea-4313-9665-a5dd6c11414c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Evaluator">
+      <UniqueIdentifier>{4e016974-6d67-4eab-8a07-d0d0dcb60f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Historizer">
+      <UniqueIdentifier>{4809df9a-1bf4-4b97-a848-8e9978db8911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tester">
+      <UniqueIdentifier>{da51e7e7-37b1-4136-bb33-4cc1a9f81d20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Calculator_main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BigDouble.cpp">
+      <Filter>BigNumbers\BigDouble</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BigInt.cpp">
+      <Filter>BigNumbers\BigInt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Evaluator.cpp">
+      <Filter>Evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Historizer.cpp">
+      <Filter>Historizer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tester.cpp">
+      <Filter>Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hdrs\Calculator_main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="hdrs\BigDouble.h">
+      <Filter>BigNumbers\BigDouble</Filter>
+    </ClInclude>
+    <ClInclude Include="hdrs\BigInt.h">
+      <Filter>BigNumbers\BigInt</Filter>
+    </ClInclude>
+    <ClInclude Include="hdrs\IBigNum.h">
+      <Filter>BigNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="hdrs\Evaluator.h">
+      <Filter>Evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="hdrs\Historizer.h">
+      <Filter>Historizer</Filter>
+    </ClInclude>
+    <ClInclude Include="hdrs\Tester.h">
+      <Filter>Tester</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Examples\examples.tst">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Examples\calc.hist">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
